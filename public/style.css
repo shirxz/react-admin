@@ -1,0 +1,53 @@
+.sidebar {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 100;
+            padding: 90px 0 0;
+            box-shadow: inset -1px 0 0 rgba(1, 16, 222, 0.693);
+            z-index: 99;
+        }
+
+        @media (max-width: 767.98px) {
+            .sidebar {
+                top: 11.5rem;
+                padding: 0;
+            }
+        }
+            
+.navbar {
+            box-shadow: inset 0 -1px 0 rgba(1, 16, 222, 0.693);
+            color: darkslateblue;
+        }
+
+        @media (min-width: 767.98px) {
+.navbar {
+                top: 0;
+                position: sticky;
+                z-index: 999;
+                color: black;
+            }
+        }
+.sidebar .nav-link {
+        color: #333;
+    }
+
+.sidebar .nav-link.active {
+        color: #0d6efd;
+    }
+input.search-query {
+background-color: lightblue;
+color: blue;
+}
+button.name {
+    background-color: lightblue;
+    color: blue;
+}
+#clock {
+	font-size: 50px;
+	width: 300px;
+    margin-inline-end: auto;
+    border: 2px solid black;
+	border-radius: 20px;
+}
